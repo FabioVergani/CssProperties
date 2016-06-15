@@ -1,0 +1,24 @@
+shapeProperties=[
+
+	'top',
+	'right',
+	'bottom',
+	'left',
+	
+	'width',
+	'min-width',	
+	'max-width',
+	
+	'height',
+	'min-height',
+	'max-height',
+	
+	'font-size',	
+	'letter-spacing',	
+	'word-spacing'
+	
+	'text-indent',	
+	'border-spacing',
+	'background-position',
+
+];
