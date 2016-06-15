@@ -1,0 +1,7 @@
+ 
+animProperties = [
+	'animation',
+	'animation-timing-function',
+	'transition',
+	'transition-timing-function',
+]
