@@ -1,0 +1,772 @@
+'-webkit-locale',
+'-webkit-font-smoothing',
+
+'direction',
+
+'color',
+
+'font-family',
+'font-kerning',
+'font-size',
+'font-size-adjust',
+'font-stretch',
+'font-style',
+'font-variant',
+'font-variant-ligatures',
+'font-weight',
+'font-feature-settings',
+
+'text-orientation',
+'writing-mode',
+'text-rendering',
+'zoom',
+'align-content',
+'align-items',
+'alignment-baseline',
+'align-self',
+
+
+
+'backdrop-filter',
+'backface-visibility',
+
+
+
+'baseline-shift',
+'border-bottom-color',
+'border-bottom-left-radius',
+'border-bottom-right-radius',
+'border-bottom-style',
+'border-bottom-width',
+'border-collapse',
+'border-image-outset',
+'border-image-repeat',
+'border-image-slice',
+'border-image-source',
+'border-image-width',
+'border-left-color',
+'border-left-style',
+'border-left-width',
+'border-right-color',
+'border-right-style',
+'border-right-width',
+'border-top-color',
+'border-top-left-radius',
+'border-top-right-radius',
+'border-top-style',
+'border-top-width',
+'bottom',
+'box-shadow',
+'box-sizing',
+'break-after',
+'break-before',
+'break-inside',
+'buffered-rendering',
+'caption-side',
+'clear',
+'clip',
+'clip-path',
+'clip-rule',
+'color-interpolation',
+'color-interpolation-filters',
+'color-rendering',
+'column-fill',
+'contain',
+'content',
+'counter-increment',
+'counter-reset',
+'cursor',
+'cx',
+'cy',
+'d',
+'display',
+'dominant-baseline',
+'empty-cells',
+'fill',
+'fill-opacity',
+'fill-rule',
+'filter',
+
+'flex-basis',
+'flex-direction',
+'flex-grow',
+'flex-shrink',
+'flex-wrap',
+
+'float',
+'flood-color',
+'flood-opacity',
+'grid-auto-columns',
+'grid-auto-flow',
+'grid-auto-rows',
+'grid-column-end',
+'grid-column-gap',
+'grid-column-start',
+'grid-row-end',
+'grid-row-gap',
+'grid-row-start',
+'grid-template-areas',
+'grid-template-columns',
+'grid-template-rows',
+'height',
+'image-rendering',
+'image-orientation',
+'isolation',
+'justify-content',
+'justify-items',
+'justify-self',
+'left',
+'letter-spacing',
+'lighting-color',
+'line-height',
+'list-style-image',
+'list-style-position',
+'list-style-type',
+'margin-bottom',
+'margin-left',
+'margin-right',
+'margin-top',
+'marker-end',
+'marker-mid',
+'marker-start',
+'mask',
+'mask-source-type',
+'mask-type',
+'max-height',
+'max-width',
+'min-height',
+'min-width',
+'mix-blend-mode',
+'motion-offset',
+'motion-path',
+'motion-rotation',
+'object-fit',
+'object-position',
+'opacity',
+'order',
+'orphans',
+'outline-color',
+'outline-offset',
+'outline-style',
+'outline-width',
+'overflow-wrap',
+'overflow-x',
+'overflow-y',
+'padding-bottom',
+'padding-left',
+'padding-right',
+'padding-top',
+'paint-order',
+'perspective',
+'perspective-origin',
+'pointer-events',
+'position',
+'quotes',
+'resize',
+'right',
+'r',
+'rx',
+'ry',
+'scroll-behavior',
+'scroll-snap-type',
+'scroll-snap-points-x',
+'scroll-snap-points-y',
+'scroll-snap-destination',
+'scroll-snap-coordinate',
+'shape-image-threshold',
+'shape-margin',
+'shape-outside',
+'shape-rendering',
+'size',
+'snap-height',
+'speak',
+'stop-color',
+'stop-opacity',
+'stroke',
+'stroke-dasharray',
+'stroke-dashoffset',
+'stroke-linecap',
+'stroke-linejoin',
+'stroke-miterlimit',
+'stroke-opacity',
+'stroke-width',
+'table-layout',
+'tab-size',
+'text-align',
+'text-align-last',
+'text-anchor',
+'text-combine-upright',
+
+
+
+'text-decoration': [
+			'text-decoration-line',
+			'text-decoration-style',
+			'text-decoration-color'
+		],
+
+
+
+'text-indent',
+'text-justify',
+'text-overflow',
+'text-shadow',
+'text-transform',
+'text-underline-position',
+'top',
+'touch-action',
+'transform',
+'transform-origin',
+'transform-style',
+'translate',
+'rotate',
+'scale',
+'transition-delay',
+'transition-duration',
+'transition-property',
+'transition-timing-function',
+'unicode-bidi',
+'vector-effect',
+'vertical-align',
+'visibility',
+'x',
+'y',
+'-webkit-appearance',
+'-webkit-app-region',
+
+
+'-webkit-border-horizontal-spacing',
+'-webkit-border-image',
+'-webkit-border-vertical-spacing',
+'-webkit-box-align',
+'-webkit-box-decoration-break',
+'-webkit-box-direction',
+'-webkit-box-flex',
+'-webkit-box-flex-group',
+'-webkit-box-lines',
+'-webkit-box-ordinal-group',
+'-webkit-box-orient',
+'-webkit-box-pack',
+'-webkit-box-reflect',
+'-webkit-clip-path',
+'column-count',
+'column-gap',
+'column-rule-color',
+'column-rule-style',
+'column-rule-width',
+'column-span',
+'column-width',
+'-webkit-filter',
+'-webkit-highlight',
+'-webkit-hyphenate-character',
+'-webkit-line-break',
+'-webkit-line-clamp',
+'-webkit-margin-after-collapse',
+'-webkit-margin-before-collapse',
+'-webkit-margin-bottom-collapse',
+'-webkit-margin-top-collapse',
+'-webkit-mask-box-image-outset',
+'-webkit-mask-box-image-repeat',
+'-webkit-mask-box-image-slice',
+'-webkit-mask-box-image-source',
+'-webkit-mask-box-image-width',
+'-webkit-mask-clip',
+'-webkit-mask-composite',
+'-webkit-mask-image',
+'-webkit-mask-origin',
+'-webkit-mask-position-x',
+'-webkit-mask-position-y',
+'-webkit-mask-repeat-x',
+'-webkit-mask-repeat-y',
+'-webkit-mask-size',
+'-webkit-perspective-origin-x',
+'-webkit-perspective-origin-y',
+'-webkit-print-color-adjust',
+'-webkit-rtl-ordering',
+'-webkit-ruby-position',
+'-webkit-tap-highlight-color',
+'-webkit-text-combine',
+'-webkit-text-emphasis-color',
+'-webkit-text-emphasis-position',
+'-webkit-text-emphasis-style',
+'-webkit-text-fill-color',
+'-webkit-text-security',
+'-webkit-text-stroke-color',
+'-webkit-text-stroke-width',
+'-webkit-transform-origin-x',
+'-webkit-transform-origin-y',
+'-webkit-transform-origin-z',
+'-webkit-user-drag',
+'-webkit-user-modify',
+'-webkit-user-select',
+'white-space',
+'widows',
+'width',
+'will-change',
+'word-break',
+'word-spacing',
+'word-wrap',
+'z-index',
+'-webkit-border-end-color',
+'-webkit-border-end-style',
+'-webkit-border-end-width',
+'-webkit-border-start-color',
+'-webkit-border-start-style',
+'-webkit-border-start-width',
+'-webkit-border-before-color',
+'-webkit-border-before-style',
+'-webkit-border-before-width',
+'-webkit-border-after-color',
+'-webkit-border-after-style',
+'-webkit-border-after-width',
+'-webkit-margin-end',
+'-webkit-margin-start',
+'-webkit-margin-before',
+'-webkit-margin-after',
+'-webkit-padding-end',
+'-webkit-padding-start',
+'-webkit-padding-before',
+'-webkit-padding-after',
+'-webkit-logical-width',
+'-webkit-logical-height',
+'-webkit-min-logical-width',
+'-webkit-min-logical-height',
+'-webkit-max-logical-width',
+'-webkit-max-logical-height',
+'all',
+'font-display',
+'max-zoom',
+'min-zoom',
+'orientation',
+'page',
+'src',
+'unicode-range',
+'user-zoom',
+'-webkit-font-size-delta',
+
+
+'-webkit-text-decorations-in-effect',
+
+
+
+animation:[//animation-
+'name',
+'duration',
+'timing-function',
+'delay',
+'iteration-count',
+'direction',
+'fill-mode',
+'play-state'
+],
+
+
+
+
+background:[//'background-
+'image',
+'position-x',
+'position-y',
+'size',
+'repeat-x',
+'repeat-y',
+'attachment',
+'origin',
+'clip',
+'color'
+],
+
+
+'background-blend-mode',
+'-webkit-background-composite',
+
+
+
+
+
+
+background-position:['x','y'],
+background-repeat:['x','y'],
+
+
+
+
+
+	{
+		'longhands': [
+'border-top-color',
+'border-top-style',
+'border-top-width',
+'border-right-color',
+'border-right-style',
+'border-right-width',
+'border-bottom-color',
+'border-bottom-style',
+'border-bottom-width',
+'border-left-color',
+'border-left-style',
+'border-left-width',
+'border-image-source',
+'border-image-slice',
+'border-image-width',
+'border-image-outset',
+'border-image-repeat'
+		],
+		'name': 'border'
+	},
+	{
+		'longhands': [
+'border-bottom-width',
+'border-bottom-style',
+'border-bottom-color'
+		],
+		'name': 'border-bottom'
+	},
+	{
+		'longhands': [
+'border-top-color',
+'border-right-color',
+'border-bottom-color',
+'border-left-color'
+		],
+		'name': 'border-color'
+	},
+	{
+		'longhands': [
+'border-image-source',
+'border-image-slice',
+'border-image-width',
+'border-image-outset',
+'border-image-repeat'
+		],
+		'name': 'border-image'
+	},
+	{
+		'longhands': [
+'border-left-width',
+'border-left-style',
+'border-left-color'
+		],
+		'name': 'border-left'
+	},
+	{
+		'longhands': [
+'border-top-left-radius',
+'border-top-right-radius',
+'border-bottom-right-radius',
+'border-bottom-left-radius'
+		],
+		'name': 'border-radius'
+	},
+	{
+		'longhands': [
+'border-right-width',
+'border-right-style',
+'border-right-color'
+		],
+		'name': 'border-right'
+	},
+	{
+		'longhands': [
+'-webkit-border-horizontal-spacing',
+'-webkit-border-vertical-spacing'
+		],
+		'name': 'border-spacing'
+	},
+	{
+		'longhands': [
+'border-top-style',
+'border-right-style',
+'border-bottom-style',
+'border-left-style'
+		],
+		'name': 'border-style'
+	},
+	{
+		'longhands': [
+'border-top-width',
+'border-top-style',
+'border-top-color'
+		],
+		'name': 'border-top'
+	},
+	{
+		'longhands': [
+'border-top-width',
+'border-right-width',
+'border-bottom-width',
+'border-left-width'
+		],
+		'name': 'border-width'
+	},
+	{
+		'longhands': [
+'flex-grow',
+'flex-shrink',
+'flex-basis'
+		],
+		'name': 'flex'
+	},
+	{
+		'longhands': [
+'flex-direction',
+'flex-wrap'
+		],
+		'name': 'flex-flow'
+	},
+	{
+		'longhands': [
+'font-style',
+'font-variant',
+'font-weight',
+'font-stretch',
+'font-size',
+'line-height',
+'font-family'
+		],
+		'name': 'font'
+	},
+	{
+		'longhands': [
+'grid-template-columns',
+'grid-template-rows',
+'grid-template-areas',
+'grid-auto-flow',
+'grid-auto-columns',
+'grid-auto-rows',
+'grid-column-gap',
+'grid-row-gap'
+		],
+		'name': 'grid'
+	},
+	{
+		'longhands': [
+'grid-row-start',
+'grid-column-start',
+'grid-row-end',
+'grid-column-end'
+		],
+		'name': 'grid-area'
+	},
+	{
+		'longhands': [
+'grid-column-start',
+'grid-column-end'
+		],
+		'name': 'grid-column'
+	},
+	{
+		'longhands': [
+'grid-row-gap',
+'grid-column-gap'
+		],
+		'name': 'grid-gap'
+	},
+	{
+		'longhands': [
+'grid-row-start',
+'grid-row-end'
+		],
+		'name': 'grid-row'
+	},
+	{
+		'longhands': [
+'grid-template-columns',
+'grid-template-rows',
+'grid-template-areas'
+		],
+		'name': 'grid-template'
+	},
+	{
+		'longhands': [
+'list-style-type',
+'list-style-position',
+'list-style-image'
+		],
+		'name': 'list-style'
+	},
+	{
+		'longhands': [
+'margin-top',
+'margin-right',
+'margin-bottom',
+'margin-left'
+		],
+		'name': 'margin'
+	},
+	{
+		'longhands': [
+'marker-start',
+'marker-mid',
+'marker-end'
+		],
+		'name': 'marker'
+	},
+	{
+		'longhands': [
+'motion-path',
+'motion-offset',
+'motion-rotation'
+		],
+		'name': 'motion'
+	},
+	{
+		'longhands': [
+'outline-color',
+'outline-style',
+'outline-width'
+		],
+		'name': 'outline'
+	},
+	{
+		'longhands': [
+'overflow-x',
+'overflow-y'
+		],
+		'name': 'overflow'
+	},
+	{
+		'longhands': [
+'padding-top',
+'padding-right',
+'padding-bottom',
+'padding-left'
+		],
+		'name': 'padding'
+	},
+	{
+		'longhands': ['break-after'],
+		'name': 'page-break-after'
+	},
+	{
+		'longhands': ['break-before'],
+		'name': 'page-break-before'
+	},
+	{
+		'longhands': ['break-inside'],
+		'name': 'page-break-inside'
+	},
+	{
+		'longhands': [
+'transition-property',
+'transition-duration',
+'transition-timing-function',
+'transition-delay'
+		],
+		'name': 'transition'
+	},
+	{
+		'longhands': [
+'-webkit-border-after-width',
+'-webkit-border-after-style',
+'-webkit-border-after-color'
+		],
+		'name': '-webkit-border-after'
+	},
+	{
+		'longhands': [
+'-webkit-border-before-width',
+'-webkit-border-before-style',
+'-webkit-border-before-color'
+		],
+		'name': '-webkit-border-before'
+	},
+	{
+		'longhands': [
+'-webkit-border-end-width',
+'-webkit-border-end-style',
+'-webkit-border-end-color'
+		],
+		'name': '-webkit-border-end'
+	},
+	{
+		'longhands': [
+'-webkit-border-start-width',
+'-webkit-border-start-style',
+'-webkit-border-start-color'
+		],
+		'name': '-webkit-border-start'
+	},
+	{
+		'longhands': ['break-after'],
+		'name': '-webkit-column-break-after'
+	},
+	{
+		'longhands': ['break-before'],
+		'name': '-webkit-column-break-before'
+	},
+	{
+		'longhands': ['break-inside'],
+		'name': '-webkit-column-break-inside'
+	},
+	{
+		'longhands': [
+'column-rule-width',
+'column-rule-style',
+'column-rule-color'
+		],
+		'name': 'column-rule'
+	},
+	{
+		'longhands': [
+'column-width',
+'column-count'
+		],
+		'name': 'columns'
+	},
+	{
+		'longhands': [
+'-webkit-margin-before-collapse',
+'-webkit-margin-after-collapse'
+		],
+		'name': '-webkit-margin-collapse'
+	},
+	{
+		'longhands': [
+'-webkit-mask-image',
+'-webkit-mask-position-x',
+'-webkit-mask-position-y',
+'-webkit-mask-size',
+'-webkit-mask-repeat-x',
+'-webkit-mask-repeat-y',
+'-webkit-mask-origin',
+'-webkit-mask-clip'
+		],
+		'name': '-webkit-mask'
+	},
+	{
+		'longhands': [
+'-webkit-mask-box-image-source',
+'-webkit-mask-box-image-slice',
+'-webkit-mask-box-image-width',
+'-webkit-mask-box-image-outset',
+'-webkit-mask-box-image-repeat'
+		],
+		'name': '-webkit-mask-box-image'
+	},
+	{
+		'longhands': [
+'-webkit-mask-position-x',
+'-webkit-mask-position-y'
+		],
+		'name': '-webkit-mask-position'
+	},
+	{
+		'longhands': [
+'-webkit-mask-repeat-x',
+'-webkit-mask-repeat-y'
+		],
+		'name': '-webkit-mask-repeat'
+	},
+	{
+
+'-webkit-text-emphasis'': [
+'-webkit-text-emphasis-style',
+'-webkit-text-emphasis-color'
+		],
+
+
+		-webkit-text-stroke:['-webkit-text-stroke-width','-webkit-text-stroke-color'],
+
+
+]
