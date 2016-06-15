@@ -1,0 +1,34 @@
+colorProperties = [
+
+	'fill',
+	'stroke',
+	'color',
+
+	'outline',
+	'outline-color',
+
+	'border',
+	'border-color',
+	'border-top',
+	'border-right',
+	'border-bottom',
+	'border-left',
+	'border-top-color',
+	'border-right-color',
+	'border-bottom-color',
+	'border-left-color',
+
+	'background',
+	'background-color',
+	'background-image',
+
+	'box-shadow',
+
+
+	'text-shadow',
+	'-webkit-column-rule-color',
+	'-webkit-text-decoration-color',
+	'-webkit-text-emphasis',
+	'-webkit-text-emphasis-color'
+	
+]
